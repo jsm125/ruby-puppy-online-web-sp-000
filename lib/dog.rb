@@ -17,7 +17,7 @@ def self.print_all #iterates over all of the indiv. dogs stored and puts out the
 end
 
 def self.clear_all
-  
+  @@all.clear
 end
 
 end
