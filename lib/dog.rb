@@ -6,14 +6,18 @@ attr_accessor :name
 
 def initialize(new)
   @name = name
-  @@all << self
+  def self.save
+    @@all << self
+  end
 end
 
 def self.all
   @@all
 end
 
-def self.print_all
+def self.print_all #iterates over all of the indiv. dogs stored and puts out their name
 end
+
+
 
 end
