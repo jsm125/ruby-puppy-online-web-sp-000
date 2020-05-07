@@ -4,7 +4,7 @@ attr_accessor :name
 
 @@all = []
 
-def initialize()
+def initialize(new)
   @name = name
   @@all << self
 end
@@ -15,4 +15,5 @@ end
 
 def self.print_all
 end
+
 end
