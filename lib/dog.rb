@@ -12,7 +12,7 @@ def initialize(new)
 end
 
 def self.all
-  @@all
+  self.save
 end
 
 def self.print_all #iterates over all of the indiv. dogs stored and puts out their name
