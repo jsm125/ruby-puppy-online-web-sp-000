@@ -14,9 +14,9 @@ def self.all
 end
 
 def self.print_all #iterates over all of the indiv. dogs stored and puts out their name
-
-    puts @@all
- 
+  @@all.each do |name|
+    puts dog.name
+  end
 end
 
 def self.clear_all
