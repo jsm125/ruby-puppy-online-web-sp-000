@@ -15,7 +15,7 @@ end
 
 def self.print_all #iterates over all of the indiv. dogs stored and puts out their name
   @@all.each do |name|
-    puts "#{@name}"
+    puts "#{name}"
   end
 end
 
